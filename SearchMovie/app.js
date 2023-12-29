@@ -9,6 +9,8 @@ function searchMovie(){
     }).then(function(data){
         document.getElementById('title').innerText = data.Title;
         document.getElementById('desc').innerText = data.Plot;
+        document.getElementById('rdate').innerText = data.Released;
+        document.getElementById('runtime').innerText = data.Runtime;
         document.getElementById('genre').innerText = data.Genre;
         document.getElementById('actors').innerText = data.Actors;
         document.getElementById('directors').innerText = data.Directors;
