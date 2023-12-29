@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Movie Search Application</title>
+  </head>
+  <body>
+    <div class="search">
+      <input type="text" placeholder="search any movie..." id="movieName" />
+      <button class="btn" onclick="searchMovie()">Search</button>
+    </div>
 
+    <div class="container">
+      <img src="" id="poster" alt="poster" />
+      <div class="movie">
+        <h2 id="title"></h2>
+        <i
+          ><b><p id="desc"></p></b
+        ></i>
+        <p>Genre : <span id="genre"></span></p>
+        <p>Actors : <span id="actors"></span></p>
+        <p>Directors : <span id="directors"></span></p>
+        <p>Writers : <span id="writers"></span></p>
+        <p>Box Office Collection : <span id="collection"></span></p>
+        <p>Awards : <span id="awards"></span></p>
+        <p>IMDB ratings : <span id="ratings"></span></p>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
