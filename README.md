@@ -1,4 +1,4 @@
-# Search_Movie_Application 🤩
+# Search_Movie_Application🎥✅
 I developed this application recently using html, css and vanilla js 👩🏻‍💻, with the help of Codekaro | Ashish Shukla 🚀
 
 
